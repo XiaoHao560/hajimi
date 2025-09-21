@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color">#6200EE</color>
+    <color name="primary_light">#9e47ff</color>
+    <color name="primary_dark">#0400ba</color>
+    <color name="secondary_color">#03DAC6</color>
+    <color name="white">#FFFFFF</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    
+    <color name="purple_500">@color/primary_color</color>
+    <color name="purple_700">@color/primary_dark</color>
+    <color name="teal_200">@color/secondary_color</color>
+    <color name="teal_700">#018786</color>
+    <color name="black">#FF000000</color>
+    
+    <!-- 为二维码功能添加的颜色 -->
+    <color name="qr_background">#FFFFFFFF</color>
+    <color name="qr_foreground">#FF000000</color>
+    
+    <!-- 为设置对话框添加的颜色 -->
+    <color name="dialog_background">#FFFFFFFF</color>
+    <color name="dialog_text">#212121</color>
+    
+    <!-- 为按钮状态添加的颜色 -->
+    <color name="button_pressed">#9e47ff</color>
+    <color name="button_focused">#6200EE</color>
+    <color name="button_normal">#6200EE</color>
+    
+    <!-- 为加密/解密状态添加的颜色 -->
+    <color name="status_success">#4CAF50</color>
+    <color name="status_error">#F44336</color>
+    <color name="status_warning">#FF9800</color>
+</resources>

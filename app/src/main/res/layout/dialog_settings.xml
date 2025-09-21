@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_height="wrap_content"
+     android:layout_width="match_parent"
+     android:padding="16dp"
+     android:orientation="vertical">
+
+    <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:gravity="center_vertical"
+         android:orientation="horizontal">
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:textSize="16sp"
+             android:layout_weight="1"
+             android:text="自动清除剪贴板" />
+
+        <androidx.appcompat.widget.SwitchCompat
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:id="@+id/autoClearSwitch" />
+
+    </LinearLayout>
+
+    <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:gravity="center_vertical"
+         android:orientation="horizontal"
+         android:layout_marginTop="16dp">
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:textSize="16sp"
+             android:layout_weight="1"
+             android:text="清除延迟(秒)" />
+
+        <EditText
+             android:layout_height="wrap_content"
+             android:layout_width="80dp"
+             android:inputType="number"
+             android:id="@+id/clearDelayEditText"
+             android:text="30" />
+
+    </LinearLayout>
+
+    <TextView
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:textSize="12sp"
+         android:textColor="?android:attr/textColorSecondary"
+         android:layout_marginTop="4dp"
+         android:text="设置剪贴板自动清除的延迟时间(5-300秒)" />
+
+</LinearLayout>
