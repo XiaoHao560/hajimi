@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_height="wrap_content"
+     android:layout_width="match_parent"
+     android:gravity="center"
+     android:padding="16dp"
+     android:orientation="vertical">
+
+    <TextView
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:layout_marginBottom="8dp"
+         android:textSize="22sp"
+         android:textColor="#212121"
+         android:text="哈基米"
+         android:textStyle="bold" />
+
+    <ImageView
+         android:layout_height="300dp"
+         android:layout_width="300dp"
+         android:scaleType="fitXY"
+         android:id="@+id/qrCodeImage" />
+
+    <TextView
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:textSize="14sp"
+         android:layout_marginTop="8dp"
+         android:text="点击“保存”即可分享/识别" />
+
+    <Button
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:background="@drawable/button_primary"
+         android:textColor="#FFFFFF"
+         android:layout_marginTop="16dp"
+         android:id="@+id/btnSaveQr"
+         android:text="保存到相册" />
+
+</LinearLayout>
